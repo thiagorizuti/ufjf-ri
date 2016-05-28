@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package src;
+package irlucene;
 
 import com.sun.org.apache.bcel.internal.generic.AALOAD;
 import java.io.File;
@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.lucene.analysis.Analyzer;
@@ -39,7 +40,27 @@ public class Main {
     
     
     public static void main(String args[]) throws MalformedURLException{
-        try {
+        Reader reader = new Reader();
+        ArrayList<CFCDocument> docs1 = reader.readCFCFile("cf74");
+        ArrayList<CFCDocument> docs2 = reader.readCFCFile("cf75");
+        ArrayList<CFCDocument> docs3 = reader.readCFCFile("cf76");
+        ArrayList<CFCDocument> docs4 = reader.readCFCFile("cf77");
+        ArrayList<CFCDocument> docs5 = reader.readCFCFile("cf78");
+       ArrayList<CFCDocument> docs6 = reader.readCFCFile("cf79");
+        ArrayList<MEDDocument> docs0 = reader.readMEDFile("MED.ALL");
+        int i = 1;
+        /*for(CFCDocument doc : docs3){
+            System.out.println(i + doc.getAuthors());
+            i++;
+        }*/
+        for(MEDDocument doc : docs0){
+            System.out.println(i + " " + doc.getId());
+            i++;
+        }
+        /*try {
+            
+            FileReader fr = new FileReader("data/cfc/");
+            fr.readFile("cf74");
             Analyzer analyzer = new StandardAnalyzer();
             
             // Store the index in memory:
@@ -73,6 +94,6 @@ public class Main {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ParseException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        }*/
     }
 }
