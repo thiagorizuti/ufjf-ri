@@ -32,6 +32,7 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.store.RAMDirectory;
 
 /**
  *
@@ -43,12 +44,13 @@ public class CFCRetrieval {
     private Analyzer analyzer;
 
     public CFCRetrieval(Analyzer analyzer) {
-        try {
+        index = new RAMDirectory();
+        this.analyzer = analyzer;
+        /*try {
             index = FSDirectory.open(Paths.get("CFCindex/"));
-            this.analyzer = analyzer;
         } catch (IOException ex) {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        }*/
     }
 
     public ArrayList<CFCDocument> readDocumentsFile(String fileName) {

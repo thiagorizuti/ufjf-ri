@@ -33,6 +33,7 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.store.RAMDirectory;
 
 /**
  *
@@ -44,12 +45,13 @@ public class MEDRetrieval {
     private Analyzer analyzer;
 
     public MEDRetrieval(Analyzer analyzer) {
-        try {
+        index = new RAMDirectory();
+        this.analyzer = analyzer;
+        /*try {
             index = FSDirectory.open(Paths.get("MEDindex/"));
-            this.analyzer = analyzer;
         } catch (IOException ex) {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        }*/
     }
 
     public ArrayList<MEDDocument> readDocumentsFile(String fileName) {
