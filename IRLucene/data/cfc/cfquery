@@ -1,6 +1,6 @@
 QN 00001
 QU What are the effects of calcium on the physical properties of mucus
-   from CF patients? 
+   from CF patients\?
 NR 00034
 RD  139 1222  151 2211  166 0001  311 0001  370 1010  392 0001  439 0001
     440 0011  441 2122  454 0100  461 1121  502 0002  503 1000  505 0001
@@ -10,13 +10,13 @@ RD  139 1222  151 2211  166 0001  311 0001  370 1010  392 0001  439 0001
 
 QN 00002
 QU Can one distinguish between the effects of mucus hypersecretion and
-   infection on the submucosal glands of the respiratory tract in CF?
+   infection on the submucosal glands of the respiratory tract in CF\?
 NR 00007
 RD  169 1000  434 1001  454 0100  498 1000  499 1000  592 0002  875 1011
 
 QN 00003
 QU How are salivary glycoproteins from CF patients different from those of
-   normal subjects?
+   normal subjects\?
 NR 00043
 RD   23 1000   40 0010  139 2122  190 0001  221 0001  246 0001  309 1000
     311 0011  325 0001  345 0010  347 0010  356 0010  370 1001  374 0001
@@ -27,13 +27,13 @@ RD   23 1000   40 0010  139 2122  190 0001  221 0001  246 0001  309 1000
    1196 0002
 
 QN 00004
-QU What is the lipid composition of CF respiratory secretions?
+QU What is the lipid composition of CF respiratory secretions\?
 NR 00009
 RD  503 0001  538 0100  539 0100  540 0100  553 0001  604 2222  669 1010
     711 2122  876 2222
 
 QN 00005
-QU Is CF mucus abnormal?
+QU Is CF mucus abnormal\?
 NR 00131
 RD   23 2220   47 2221   50 0001   60 0001  114 0011  132 0001  135 0001
     139 0010  151 2222  169 0001  189 0001  190 0001  197 0001  200 0001
@@ -57,8 +57,8 @@ RD   23 2220   47 2221   50 0001   60 0001  114 0011  132 0001  135 0001
 
 QN 00006
 QU What is the effect of water or other therapeutic agents on the physical
-   properties (viscosity, elasticity) of sputum or bronchial secretions
-   from CF patients?
+   properties \(viscosity, elasticity\) of sputum or bronchial secretions
+   from CF patients\?
 NR 00024
 RD   25 0010   31 2222   90 1000  195 0100  326 0001  370 0110  438 0001
     440 0010  441 1000  503 1220  511 0010  586 0001  592 1010  593 1000
@@ -67,7 +67,7 @@ RD   25 0010   31 2222   90 1000  195 0100  326 0001  370 0110  438 0001
 
 QN 00007
 QU Are mucus glycoproteins degraded differently in CF patients as compared
-   to those from normal subjects?
+   to those from normal subjects\?
 NR 00028
 RD   45 0100   53 0001  166 0002  171 0001  256 0101  370 0001  371 2122
     386 0001  410 0100  439 0101  535 0001  623 2121  633 0100  634 0100
@@ -76,7 +76,7 @@ RD   45 0100   53 0001  166 0002  171 0001  256 0101  370 0001  371 2122
 
 QN 00008
 QU What histochemical differences have been described between normal and
-   CF respiratory epithelia?
+   CF respiratory epithelia\?
 NR 00022
 RD   23 2112  169 1000  322 0100  370 1000  386 1000  435 0001  439 1100
     463 0001  496 1000  497 0001  498 1000  499 1122  503 0001  605 0001
@@ -84,14 +84,14 @@ RD   23 2112  169 1000  322 0100  370 1000  386 1000  435 0001  439 1100
    1125 2220
 
 QN 00009
-QU What is the association between liver disease (cirrhosis) and vitamin A
-   metabolism in CF?
+QU What is the association between liver disease \(cirrhosis\) and vitamin A
+   metabolism in CF\?
 NR 00010
 RD  165 1122  174 0001  362 0001  370 0001  414 2222  443 0100  794 2110
     992 1010 1040 0001 1115 0102
 
 QN 00010
-QU What is the role of Vitamin E in the therapy of patients with CF?
+QU What is the role of Vitamin E in the therapy of patients with CF\?
 NR 00025
 RD   30 2112  126 1001  157 2222  170 1112  296 1212  301 0001  322 0001
     370 1100  413 2222  443 1120  581 2222  676 2122  715 0010  722 0001
@@ -100,7 +100,7 @@ RD   30 2112  126 1001  157 2222  170 1112  296 1212  301 0001  322 0001
 
 QN 00011
 QU What is the difference between meconium ileus and meconium plug
-   syndrome?
+   syndrome\?
 NR 00022
 RD   36 0001   46 0001   96 2210  186 1000  301 1000  428 1002  518 2110
     649 0010  652 0001  659 0010  772 1010  796 2222  798 2212  799 0010
@@ -109,13 +109,13 @@ RD   36 0001   46 0001   96 2210  186 1000  301 1000  428 1002  518 2110
 
 QN 00012
 QU What abnormalities of amino acid transport have been described in the
-   small bowel of CF patients?
+   small bowel of CF patients\?
 NR 00007
 RD   70 2212  181 0001  443 2120  466 2220  755 0010  918 1000 1115 0001
 
 QN 00013
 QU What are the clinical or biochemical features of pancreatitis in CF
-   patients?
+   patients\?
 NR 00024
 RD  156 2112  301 1112  314 2222  322 1220  370 0100  443 1120  462 1010
     522 0100  643 1000  695 1220  715 0010  719 0010  722 0001  763 0101
@@ -123,8 +123,8 @@ RD  156 2112  301 1112  314 2222  322 1220  370 0100  443 1120  462 1010
    1033 0001 1097 0001 1124 0002
 
 QN 00014
-QU What non-invasive tests can be performed for the evaluation of exocrine
-   pancreatic function in patients with CF?
+QU What non\-invasive tests can be performed for the evaluation of exocrine
+   pancreatic function in patients with CF\?
 NR 00055
 RD    5 1100   89 0100   92 0001  131 2212  135 0001  150 2222  156 1000
     203 0010  232 0010  233 1122  234 1121  291 0001  297 0001  314 1000
@@ -136,7 +136,7 @@ RD    5 1100   89 0100   92 0001  131 2212  135 0001  150 2222  156 1000
    1100 2222 1117 2220 1124 2122 1135 1002 1206 1000 1234 1001
 
 QN 00015
-QU What are the hepatic complications or manifestations of CF?
+QU What are the hepatic complications or manifestations of CF\?
 NR 00104
 RD   17 0001   59 2122   63 1000   72 0001   91 0001   95 0001   97 0001
      98 0001   99 2112  135 0001  149 1011  174 2220  197 1001  204 2222
@@ -156,7 +156,7 @@ RD   17 0001   59 2122   63 1000   72 0001   91 0001   95 0001   97 0001
 
 QN 00016
 QU What are the gastrointestinal complications of CF after the neonatal
-   period (exclude liver disease and meconium ileus)?
+   period \(exclude liver disease and meconium ileus\)\?
 NR 00180
 RD    5 0001   10 0001   17 0001   36 0010   41 0110   46 1111   69 0002
      72 0001   89 2222   92 0010   95 2222   97 1000   98 1000  126 0001
@@ -187,7 +187,7 @@ RD    5 0001   10 0001   17 0001   36 0010   41 0110   46 1111   69 0002
 
 QN 00017
 QU What is the most effective regimen for the use of pancreatic enzyme
-   supplements in the treatment of CF patients?
+   supplements in the treatment of CF patients\?
 NR 00055
 RD   49 2122   89 2120  101 0010  128 0001  132 0001  135 0001  153 0002
     189 0001  233 0010  238 0001  297 0001  298 0001  301 0002  330 0001
@@ -200,7 +200,7 @@ RD   49 2122   89 2120  101 0010  128 0001  132 0001  135 0001  153 0002
 
 QN 00018
 QU Is dietary supplementation with bile salts of therapeutic benefit to CF
-   patients?
+   patients\?
 NR 00021
 RD  129 2122  153 0001  205 2120  226 0002  364 0100  370 1010  414 0002
     424 1110  443 0010  642 1000  656 1001  657 1010  658 1010  660 1010
@@ -208,7 +208,7 @@ RD  129 2122  153 0001  205 2120  226 0002  364 0100  370 1010  414 0002
 
 QN 00019
 QU What complications of pancreatic enzyme therapy have been reported in
-   CF patients?
+   CF patients\?
 NR 00022
 RD   21 2220   49 0001  359 1011  370 1100  398 0001  432 2121  455 0010
     487 2222  506 2222  618 2222  626 2222  672 2212  688 2222  693 2222
@@ -217,7 +217,7 @@ RD   21 2220   49 0001  359 1011  370 1100  398 0001  432 2121  455 0010
 
 QN 00020
 QU What is the effect of treatment of CF patients with essential fatty
-   acid supplements?
+   acid supplements\?
 NR 00046
 RD  126 2112  133 0002  153 0002  181 0010  207 2122  208 2122  220 2221
     278 2111  283 1100  286 2111  287 2111  288 1100  290 2111  292 2111
@@ -229,7 +229,7 @@ RD  126 2112  133 0002  153 0002  181 0010  207 2122  208 2122  220 2221
 
 QN 00021
 QU Does pancreatic insufficiency in CF patients affect their ability to
-   absorb or metabolize iron?
+   absorb or metabolize iron\?
 NR 00025
 RD   68 2112   97 0002   98 0012  181 0001  251 2112  413 0001  416 0001
     434 0001  443 0002  551 0100  615 0001  676 0001  708 2122  709 2222
@@ -237,7 +237,7 @@ RD   68 2112   97 0002   98 0012  181 0001  251 2112  413 0001  416 0001
    1098 0002 1115 1122 1158 2221 1189 0001
 
 QN 00022
-QU What is the frequency of CF in non-Caucasian populations?
+QU What is the frequency of CF in non\-Caucasian populations\?
 NR 00070
 RD   13 2222   39 0012   67 0001   69 0001  104 0001  130 2222  189 0001
     197 0001  221 0001  226 0001  237 0101  247 0010  258 2221  262 2112
@@ -252,7 +252,7 @@ RD   13 2222   39 0012   67 0001   69 0001  104 0001  130 2222  189 0001
 
 QN 00023
 QU What congenital or hereditary diseases or conditions have been found in
-   association with CF?
+   association with CF\?
 NR 00035
 RD    9 2221   10 2122   11 1100   12 2212   34 2222   42 2222   99 1112
     162 1000  163 0001  167 1000  198 1000  248 1000  285 0010  322 0101
@@ -262,7 +262,7 @@ RD    9 2221   10 2122   11 1100   12 2212   34 2222   42 2222   99 1112
 
 QN 00024
 QU What are the characteristics of patients in whom CF is incompletely
-   manifested?
+   manifested\?
 NR 00031
 RD   32 1100   72 0001  199 0001  207 0001  210 2220  240 0001  254 2111
     331 0001  370 1000  377 0001  411 0001  477 0001  492 0001  522 0001
@@ -272,7 +272,7 @@ RD   32 1100   72 0001  199 0001  207 0001  210 2220  240 0001  254 2111
 
 QN 00025
 QU What evidence is there that the genetic basis for CF involves more than
-   one gene?
+   one gene\?
 NR 00051
 RD   72 2112   74 2110   83 0111   84 0011  106 1012  112 0001  120 0102
     141 0001  162 1001  172 0001  198 1012  221 0001  276 0001  370 1010
@@ -284,7 +284,7 @@ RD   72 2112   74 2110   83 0111   84 0011  106 1012  112 0001  120 0102
    1195 1112 1210 0001
 
 QN 00026
-QU What is the heterozygote advantage in CF?
+QU What is the heterozygote advantage in CF\?
 NR 00033
 RD   74 0110  104 2212  199 2222  221 0001  281 2222  285 2112  328 2111
     333 0001  342 2110  343 1100  370 0010  392 0001  431 2222  434 0001
@@ -294,13 +294,13 @@ RD   74 0110  104 2212  199 2222  221 0001  281 2222  285 2112  328 2111
 
 QN 00027
 QU What is the concordance of clinical or biochemical manifestations of CF
-   in sibling pairs (both of whom have CF)?
+   in sibling pairs \(both of whom have CF\)\?
 NR 00011
 RD   98 1102  179 0001  599 2222  756 0002  858 0001  905 2122  912 0001
     913 1001 1000 0100 1083 0100 1096 0002
 
 QN 00028
-QU What is the incidence of male fertility in CF?
+QU What is the incidence of male fertility in CF\?
 NR 00051
 RD  134 0001  135 0102  136 0001  215 1112  274 1000  300 0002  322 0002
     331 0001  333 0001  343 0001  351 2112  352 2112  370 1112  392 0001
@@ -312,8 +312,8 @@ RD  134 0001  135 0102  136 0001  215 1112  274 1000  300 0002  322 0002
    1226 0001 1234 0102
 
 QN 00029
-QU What is the pathology of the reproductive system (male or female) in
-   CF?
+QU What is the pathology of the reproductive system \(male or female\) in
+   CF\?
 NR 00044
 RD   15 1012  100 0001  215 2122  274 2222  300 2212  322 2222  333 0101
     343 0001  350 0110  351 2122  352 2122  353 2220  370 1112  385 0001
@@ -325,7 +325,7 @@ RD   15 1012  100 0001  215 2122  274 2222  300 2212  322 2222  333 0101
 
 QN 00030
 QU What are the results of genetic counseling of families of children with
-   CF?
+   CF\?
 NR 00017
 RD  117 0002  328 0101  332 0001  433 2122  492 0001  557 0002  586 2112
     687 0010  775 0001  880 2112  881 0001  911 2212  942 1010 1001 0011
@@ -333,7 +333,7 @@ RD  117 0002  328 0101  332 0001  433 2122  492 0001  557 0002  586 2112
 
 QN 00031
 QU What are the major psychological or social effects of CF on patients
-   and their families?
+   and their families\?
 NR 00058
 RD   43 2222   69 0001  127 1112  128 1000  136 1101  145 0002  168 0101
     189 1112  213 0001  226 1122  239 2222  272 0100  330 1111  331 1001
@@ -347,7 +347,7 @@ RD   43 2222   69 0001  127 1112  128 1000  136 1101  145 0002  168 0101
 
 QN 00032
 QU What factors influence compliance with prescribed therapy in CF
-   patients?
+   patients\?
 NR 00030
 RD   43 1000  127 0001  128 1000  181 0001  184 2222  189 0002  212 0011
     226 0001  239 0011  315 1000  330 0001  331 0001  370 1000  389 1112
@@ -356,7 +356,7 @@ RD   43 1000  127 0001  128 1000  181 0001  184 2222  189 0002  212 0011
    1220 0001 1234 1100
 
 QN 00033
-QU What conditions or factors lead to erroneous sweat tests?
+QU What conditions or factors lead to erroneous sweat tests\?
 NR 00057
 RD   37 0101   65 0001   91 2222   94 2220   96 0001  210 2220  225 0012
     297 0001  359 1011  370 1212  403 2212  404 0002  413 0002  465 2222
@@ -369,10 +369,10 @@ RD   37 0101   65 0001   91 2222   94 2220   96 0001  210 2220  225 0012
    1234 1222
 
 QN 00034
-QU What alternative techniques other than the classical Gibson-Cooke
-   quantitative pilocarpine iontophoresis test (with titrimetric analysis
-   of chloride) are available for sweat testing; what are their relative
-   advantages and disadvantages?
+QU What alternative techniques other than the classical Gibson\-Cooke
+   quantitative pilocarpine iontophoresis test \(with titrimetric analysis
+   of chloride\) are available for sweat testing; what are their relative
+   advantages and disadvantages\?
 NR 00039
 RD   37 2222   65 2212   76 0011   77 0100   94 0002  135 0001  225 0002
     235 0010  236 0010  247 0010  261 2122  277 0010  297 0001  359 0010
@@ -382,20 +382,20 @@ RD   37 2222   65 2212   76 0011   77 0100   94 0002  135 0001  225 0002
    1023 0001 1052 0101 1186 0001 1234 0001
 
 QN 00035
-QU Has any CF patient been found to have consistently normal sweat tests?
+QU Has any CF patient been found to have consistently normal sweat tests\?
 NR 00014
 RD   32 1000  120 0100  210 2222  811 1120  825 0100  888 0001  913 2110
     915 2120  920 0100  926 0010  948 0010 1105 0001 1109 2222 1119 0001
 
 QN 00036
-QU What is the concentration of potassium in sweat from CF patients?
+QU What is the concentration of potassium in sweat from CF patients\?
 NR 00009
 RD   66 1000  325 0001  370 0002  403 1100  612 2120  721 1000  722 2220
     724 0001 1052 2220
 
 QN 00037
 QU What techniques are available for screening of newborn infants for CF,
-   and what factors contribute to erroneous results of these tests?
+   and what factors contribute to erroneous results of these tests\?
 NR 00098
 RD    3 2112    4 1000   28 2120   33 2222   35 2122   38 2222   65 1001
      71 1111   76 1002  116 0001  119 0001  120 1222  131 2222  148 0001
@@ -413,7 +413,7 @@ RD    3 2112    4 1000   28 2120   33 2222   35 2122   38 2222   65 1001
    1133 2222 1135 0111 1174 1222 1176 2222 1178 2122 1182 1222 1234 1212
 
 QN 00038
-QU Can CF be diagnosed prenatally?
+QU Can CF be diagnosed prenatally\?
 NR 00053
 RD   14 2122   76 0001  117 1010  142 0001  252 0100  360 2212  370 0001
     390 2222  392 0001  444 0001  465 1212  503 0001  505 0010  510 0001
@@ -425,7 +425,7 @@ RD   14 2122   76 0001  117 1010  142 0001  252 0100  360 2212  370 0001
    1148 0011 1160 0011 1230 1000 1234 1210
 
 QN 00039
-QU How may heterozygotes for CF be identified?
+QU How may heterozygotes for CF be identified\?
 NR 00162
 RD    3 1000   67 0001   74 0001   76 0001   83 2121   84 0001   85 2122
     102 1000  107 0001  108 0002  112 0011  135 0001  143 1000  216 2122
@@ -453,8 +453,8 @@ RD    3 1000   67 0001   74 0001   76 0001   83 2121   84 0001   85 2122
    1238 0002
 
 QN 00040
-QU Other than the sweat test, what techniques may be useful (beyond the
-   neonatal period) for the diagnosis of CF?
+QU Other than the sweat test, what techniques may be useful \(beyond the
+   neonatal period\) for the diagnosis of CF\?
 NR 00146
 RD    2 0100    3 2122    4 2122    5 0100    9 0001   10 0001   17 0001
      28 2212   32 0001   35 0100   76 0001   77 1122   95 2110  103 0010
@@ -479,7 +479,7 @@ RD    2 0100    3 2122    4 2122    5 0100    9 0001   10 0001   17 0001
    1160 0011 1161 0010 1192 0001 1193 1121 1230 1120 1234 2222
 
 QN 00041
-QU Is Vitamin D metabolism normal in CF patients?
+QU Is Vitamin D metabolism normal in CF patients\?
 NR 00015
 RD   46 0100  296 0100  301 0100  322 0010  370 0100  392 1000  603 2221
     941 0001  998 1010 1106 2222 1107 2222 1108 2222 1115 1122 1184 0010
@@ -487,7 +487,7 @@ RD   46 0100  296 0100  301 0100  322 0010  370 0100  392 1000  603 2221
 
 QN 00042
 QU What abnormalities of insulin secretion or insulin metabolism occur in
-   CF patients?
+   CF patients\?
 NR 00047
 RD    5 0001   46 0100   57 2222   92 2212  135 0001  209 2222  245 1011
     297 0001  301 1112  314 0100  317 2222  322 0001  337 1212  339 0100
@@ -498,7 +498,7 @@ RD    5 0001   46 0100   57 2222   92 2212  135 0001  209 2222  245 1011
    1093 0001 1187 0001 1192 0001 1232 0001 1234 1001
 
 QN 00043
-QU Is salt (sodium and/or chloride) transport/permeability abnormal in CF?
+QU Is salt \(sodium and\/or chloride\) transport\/permeability abnormal in CF\?
 NR 00098
 RD    3 0100    4 0100   28 0100   54 1121   65 0100   66 2221   91 0100
      94 0100  119 0012  124 1212  125 2222  135 0001  137 0002  140 2222
@@ -517,7 +517,7 @@ RD    3 0100    4 0100   28 0100   54 1121   65 0100   66 2221   91 0100
 
 QN 00044
 QU What structural or enzymatic differences are there between fibroblasts
-   from CF patients and non-CF patients?
+   from CF patients and non\-CF patients\?
 NR 00140
 RD   44 2222   45 1000   53 2222   67 1211   72 2112   74 2222   83 1001
      84 1112  106 1001  108 1000  118 1000  121 1000  122 0011  124 2222
@@ -542,7 +542,7 @@ RD   44 2222   45 1000   53 2222   67 1211   72 2112   74 2222   83 1001
 
 QN 00045
 QU What abnormalities of prostaglandin metabolism have been described in
-   CF patients?
+   CF patients\?
 NR 00020
 RD  278 0100  283 0100  286 0100  287 0101  288 0100  289 1220  290 1110
     292 2210  293 1220  338 1212  538 2210  540 1000  715 0100  758 1010
@@ -550,7 +550,7 @@ RD  278 0100  283 0100  286 0100  287 0101  288 0100  289 1220  290 1110
 
 QN 00046
 QU What are the properties and activity of galactosyltransferase enzymes
-   from CF patients?
+   from CF patients\?
 NR 00018
 RD   51 2222   53 2222  370 0010  410 0011  430 0001  500 0100  503 2221
     516 2111  553 1002  568 1000  623 0010  702 2122  737 2222  854 1111
@@ -558,7 +558,7 @@ RD   51 2222   53 2222  370 0010  410 0011  430 0001  500 0100  503 2221
 
 QN 00047
 QU What differences between normal subjects and CF patients have been
-   described in the function or metabolism of hormones?
+   described in the function or metabolism of hormones\?
 NR 00060
 RD   15 0002   57 1000   92 2220  118 0010  121 0010  125 0001  163 2222
     165 0002  172 0012  183 0010  208 0001  209 2220  245 1000  259 0010
@@ -571,7 +571,7 @@ RD   15 0002   57 1000   92 2220  118 0010  121 0010  125 0001  163 2222
    1165 2222 1192 1000 1194 0010 1206 0010
 
 QN 00048
-QU Do fibroblasts from CF patients grow at a normal rate?
+QU Do fibroblasts from CF patients grow at a normal rate\?
 NR 00030
 RD   44 0110   72 0100   74 0100  124 2220  143 0002  154 2222  190 0010
     257 0011  312 0100  336 2222  386 0100  422 0001  436 2222  453 2222
@@ -580,7 +580,7 @@ RD   44 0110   72 0100   74 0100  124 2220  143 0002  154 2222  190 0010
    1201 0001 1231 2122
 
 QN 00049
-QU Is RNA methylation or polyamine metabolism normal in CF patients?
+QU Is RNA methylation or polyamine metabolism normal in CF patients\?
 NR 00036
 RD   72 0100   84 0010  138 2222  143 2222  230 2220  313 2222  370 0010
     392 1010  393 2220  430 0010  436 2222  440 1000  465 0001  493 2222
@@ -591,7 +591,7 @@ RD   72 0100   84 0010  138 2222  143 2222  230 2220  313 2222  370 0010
 
 QN 00050
 QU What defects in the synthesis or metabolism of cyclic nucleotides have
-   been described in CF patients?
+   been described in CF patients\?
 NR 00025
 RD   44 0100  259 2222  309 0100  347 0001  435 2222  440 1001  495 2222
     505 0001  543 0100  548 2222  568 1001  570 0001  575 0001  601 0001
@@ -600,8 +600,8 @@ RD   44 0100  259 2222  309 0100  347 0001  435 2222  440 1001  495 2222
 
 QN 00051
 QU What circulating or secreted "factors" have been described in CF
-   patients? ("Factors" are unidentified biologically active molecules
-   thought to play some pathogenetic role in cystic fibrosis).
+   patients\? \("Factors" are unidentified biologically active molecules
+   thought to play some pathogenetic role in cystic fibrosis\).
 NR 00241
 RD    1 0100   11 0100   14 0100   18 1120   19 1210   26 2221   44 1120
      51 0100   55 0100   62 0100   63 0100   66 0001   67 1112   72 1112
@@ -640,13 +640,13 @@ RD    1 0100   11 0100   14 0100   18 1120   19 1210   26 2221   44 1120
    1234 0002 1236 1222 1238 1220
 
 QN 00052
-QU What is known about prolactin in CF patients?
+QU What is known about prolactin in CF patients\?
 NR 00002
 RD  406 2222  505 0010
 
 QN 00053
 QU Does secretory IgA protect CF patients against bacterial colonization
-   or infection?
+   or infection\?
 NR 00023
 RD    1 1000   11 0002   55 1000   81 1000  160 0001  188 1000  223 1000
     228 1000  347 1100  370 0010  401 2210  432 1212  447 2220  505 1000
@@ -655,7 +655,7 @@ RD    1 1000   11 0002   55 1000   81 1000  160 0001  188 1000  223 1000
 
 QN 00054
 QU What is the relationship of allergy or hypersensitivity to lung disease
-   in CF patients?
+   in CF patients\?
 NR 00062
 RD   11 2222   23 0100   55 1010  187 1011  206 0100  211 2222  223 1122
     228 2222  229 2222  333 0011  341 0012  347 0012  358 2222  369 2121
@@ -668,8 +668,8 @@ RD   11 2222   23 0100   55 1010  187 1011  206 0100  211 2222  223 1122
    1163 2212 1164 0112 1169 1222 1171 0100 1192 0001 1237 0100
 
 QN 00055
-QU What are the interactions between proteases (endogenous or bacterial
-   origin) and antiproteases in the lungs of CF patients?
+QU What are the interactions between proteases \(endogenous or bacterial
+   origin\) and antiproteases in the lungs of CF patients\?
 NR 00024
 RD   70 0100  232 1100  305 0100  347 1000  358 0002  391 2110  430 0001
     432 2122  463 1100  505 1001  521 2222  530 2122  640 1010  675 1000
@@ -678,7 +678,7 @@ RD   70 0100  232 1100  305 0100  347 1000  358 0002  391 2110  430 0001
 
 QN 00056
 QU What is the relationship between nutrition and pulmonary host defenses
-   against bacterial infection in CF patients?
+   against bacterial infection in CF patients\?
 NR 00032
 RD   55 1000   89 0110  123 0001  135 0001  181 1012  185 1001  212 1012
     288 0110  290 0110  292 0110  414 0100  424 0100  432 0100  443 0100
@@ -688,7 +688,7 @@ RD   55 1000   89 0110  123 0001  135 0001  181 1012  185 1001  212 1012
 
 QN 00057
 QU What is the pathophysiologic role of circulating antibodies to
-   Pseudomonas aeruginosa in CF patients?
+   Pseudomonas aeruginosa in CF patients\?
 NR 00051
 RD    1 1222    6 0001    8 0100   11 0001   62 0010   79 0100   80 0010
      81 0010  160 1001  177 0100  178 1110  188 1010  200 0100  223 2211
@@ -700,7 +700,7 @@ RD    1 1222    6 0001    8 0100   11 0001   62 0010   79 0100   80 0010
    1173 1120 1203 1100
 
 QN 00058
-QU What is the immunologic response to pulmonary infection in CF patients?
+QU What is the immunologic response to pulmonary infection in CF patients\?
 NR 00095
 RD    1 2222    6 2222    7 2222   43 0100   48 1010   55 2210   60 0100
      62 2112   63 2110   80 2212   81 0002   82 2210  102 0001  111 0010
@@ -718,7 +718,7 @@ RD    1 2222    6 2222    7 2222   43 0100   48 1010   55 2210   60 0100
    1171 1122 1173 2222 1228 1000 1234 0001
 
 QN 00059
-QU What immunologic abnormalities have been found in CF patients?
+QU What immunologic abnormalities have been found in CF patients\?
 NR 00145
 RD    1 0002    6 0001   11 0001   18 0101   45 0010   48 0112   55 2222
      62 0002   63 0002   67 0001   79 1000   80 0002   81 1002   84 1012
@@ -743,7 +743,7 @@ RD    1 0002    6 0001   11 0001   18 0101   45 0010   48 0112   55 2222
    1173 1210 1203 1000 1205 1111 1228 0002 1232 0001
 
 QN 00060
-QU What are the effects of CF on the pulmonary circulation?
+QU What are the effects of CF on the pulmonary circulation\?
 NR 00034
 RD   17 0101   87 0100  100 2222  155 1220  241 2112  267 0111  322 1210
     340 0002  348 2222  354 1000  370 1000  446 2220  519 1010  550 1000
@@ -752,8 +752,8 @@ RD   17 0101   87 0100  100 2222  155 1220  241 2112  267 0111  322 1210
    1046 0002 1047 1110 1104 0001 1110 0012 1192 1100 1194 0001
 
 QN 00061
-QU Is there a defect in mucociliary transport (clearance) in the
-   respiratory tract of CF patients?
+QU Is there a defect in mucociliary transport \(clearance\) in the
+   respiratory tract of CF patients\?
 NR 00070
 RD   10 1010   56 0001   62 0100   63 0100  114 0100  132 0001  187 0001
     195 2222  196 2222  197 0100  200 0002  226 0001  298 0001  347 0001
@@ -767,7 +767,7 @@ RD   10 1010   56 0001   62 0100   63 0100  114 0100  132 0001  187 0001
    1093 0002 1098 0001 1188 0001 1207 0010 1208 0010 1234 0001 1236 0001
 
 QN 00062
-QU What are the clinical features of lung disease in CF patients?
+QU What are the clinical features of lung disease in CF patients\?
 NR 00144
 RD   10 0001   17 2211   24 0001   43 0100   56 1010   60 0010   62 0100
      63 1101   64 1220   69 1000   72 0001   88 0010   94 0001  110 0100
@@ -793,7 +793,7 @@ RD   10 0001   17 2211   24 0001   43 0100   56 1010   60 0010   62 0100
 
 QN 00063
 QU What are the biochemical or microscopic characteristics of airway
-   inflammation in CF patients?
+   inflammation in CF patients\?
 NR 00039
 RD    1 0001   23 0100   62 0100   63 0100  166 0001  322 1010  347 2220
     370 0010  374 0100  429 2222  434 2110  437 0100  438 0001  463 2222
@@ -803,8 +803,8 @@ RD    1 0001   23 0100   62 0100   63 0100  166 0001  322 1010  347 2220
    1171 2110 1192 1210 1228 2120 1229 2120
 
 QN 00064
-QU How does lung function change with time in CF patients? (time periods
-   greater than a day)
+QU How does lung function change with time in CF patients\? \(time periods
+   greater than a day\)
 NR 00050
 RD   17 0012   20 0002   22 2222   24 0001   64 1211  144 0101  148 0101
     155 0001  160 0001  197 0101  227 0100  267 0001  322 0001  331 0001
@@ -816,7 +816,7 @@ RD   17 0012   20 0002   22 2222   24 0001   64 1211  144 0101  148 0101
    1195 2222
 
 QN 00065
-QU What are the abnormalities of pulmonary function in CF patients?
+QU What are the abnormalities of pulmonary function in CF patients\?
 NR 00094
 RD   17 0012   20 2121   22 0112   24 2122   64 2222   87 1002   93 0001
     132 0001  135 0001  144 2222  148 0102  155 2122  192 2220  194 2222
@@ -834,7 +834,7 @@ RD   17 0012   20 2121   22 0112   24 2122   64 2222   87 1002   93 0001
    1232 0001 1234 0002 1237 2122
 
 QN 00066
-QU What are the pathologic features of lung disease in CF patients?
+QU What are the pathologic features of lung disease in CF patients\?
 NR 00063
 RD    1 0001   10 0001   11 0001   13 0001   17 0012   22 0002   63 0100
     100 2210  148 0012  155 0001  160 0001  166 0001  187 0100  200 1101
@@ -848,13 +848,13 @@ RD    1 0001   10 0001   11 0001   13 0001   17 0012   22 0002   63 0100
 
 QN 00067
 QU What is the prognosis for patients who have had an episode of
-   respiratory failure?
+   respiratory failure\?
 NR 00014
 RD   43 0100   61 0001  148 2212  354 1000  370 1012  472 1220  473 0100
     519 0100  724 1001  764 0001  842 0011  910 2120  914 2220 1234 0002
 
 QN 00068
-QU What are the effects of bronchodilators in CF patients?
+QU What are the effects of bronchodilators in CF patients\?
 NR 00045
 RD   11 0100   64 1000   90 1112  135 0001  195 2220  206 2121  297 0001
     327 0001  331 0001  341 1100  349 2212  358 1000  359 0001  370 1000
@@ -865,32 +865,32 @@ RD   11 0100   64 1000   90 1112  135 0001  195 2220  206 2121  297 0001
    1164 1110 1172 1000 1234 0001
 
 QN 00069
-QU What is the best way to treat pneumothorax in CF patients?
+QU What is the best way to treat pneumothorax in CF patients\?
 NR 00015
 RD  193 2222  326 0001  327 1001  359 2112  363 2122  370 1112  438 2122
     550 0001  703 2222  724 0001  837 0001  907 2222  944 1101 1000 1102
    1234 1101
 
 QN 00070
-QU What is the treatment for and prognosis of hemoptysis in CF patients?
+QU What is the treatment for and prognosis of hemoptysis in CF patients\?
 NR 00017
 RD   17 0100  327 1001  340 2222  370 1112  438 1122  698 2222  722 0100
     804 2222  837 0001  944 1101  952 0100 1000 1102 1009 2222 1032 2222
    1104 2222 1232 0001 1234 1102
 
 QN 00071
-QU What is the prognosis for infants with wheezing and cystic fibrosis?
+QU What is the prognosis for infants with wheezing and cystic fibrosis\?
 NR 00006
 RD   11 0010   56 1000  148 2222  327 1000  370 0001  547 0001
 
 QN 00072
-QU What is the best treatment for nasal polyps in CF patients?
+QU What is the best treatment for nasal polyps in CF patients\?
 NR 00013
 RD   58 1011  250 1000  323 2220  333 0001  682 2122  683 2120  732 2222
     733 0002  837 0001  941 0001 1000 0001 1019 0001 1125 0001
 
 QN 00073
-QU How effective is bronchial lavage in CF patients?
+QU How effective is bronchial lavage in CF patients\?
 NR 00018
 RD   50 2222  224 1122  227 2222  359 2112  370 1111  438 1122  629 2220
     630 2222  724 0001  806 2110  843 2222  844 2222  990 0001 1000 0001
@@ -898,13 +898,13 @@ RD   50 2222  224 1122  227 2222  359 2112  370 1111  438 1122  629 2220
 
 QN 00074
 QU What are the results of mechanical ventilation in CF patients with
-   respiratory failure?
+   respiratory failure\?
 NR 00007
 RD  148 2220  370 1000  724 1001  910 2122  914 2222 1000 0001 1093 0002
 
 QN 00075
-QU What is the best treatment for pulmonary hypertension and/or cor
-   pulmonale in CF patients?
+QU What is the best treatment for pulmonary hypertension and\/or cor
+   pulmonale in CF patients\?
 NR 00021
 RD  100 1000  241 0102  273 0011  316 2222  348 1010  354 1010  359 2110
     370 1112  446 2222  519 1001  587 1010  597 1000  751 0110  757 0010
@@ -912,7 +912,7 @@ RD  100 1000  241 0102  273 0011  316 2222  348 1010  354 1010  359 2110
 
 QN 00076
 QU What are the effects of exercise training programs on lung function in
-   CF patients?
+   CF patients\?
 NR 00017
 RD  329 0001  330 0100  359 0101  370 0110  437 2212  438 1011  606 2222
     731 0001  882 0001  889 0001 1007 1012 1023 0001 1039 0001 1048 1010
@@ -920,7 +920,7 @@ RD  329 0001  330 0100  359 0101  370 0110  437 2212  438 1011  606 2222
 
 QN 00077
 QU What techniques are effective in promoting clearance of mucus from the
-   lungs of CF patients?
+   lungs of CF patients\?
 NR 00082
 RD   25 0101   27 2222   31 0010   50 0001   90 1212  128 0012  135 0101
     148 0001  168 0001  195 2221  197 0001  224 1122  226 0001  227 1220
@@ -937,8 +937,8 @@ RD   25 0101   27 2222   31 0010   50 0001   90 1212  128 0012  135 0101
 
 QN 00078
 QU What special considerations are there for treatment of CF patients with
-   antibiotics (ie, are the pharmacodynamics of antibiotics different in
-   CF patients, or are there other special problems peculiar to CF)?
+   antibiotics \(ie, are the pharmacodynamics of antibiotics different in
+   CF patients, or are there other special problems peculiar to CF\)\?
 NR 00077
 RD   61 0112   65 0100   82 0001   90 0100   93 0100  135 0010  146 1002
     152 0011  159 1122  161 0010  179 0011  184 1000  188 0001  238 0100
@@ -954,7 +954,7 @@ RD   61 0112   65 0100   82 0001   90 0100   93 0100  135 0010  146 1002
 
 QN 00079
 QU What is the role of orally administered antibiotics in the treatment of
-   CF patients?
+   CF patients\?
 NR 00043
 RD   65 0100   75 1000  123 1121  132 0001  135 0101  146 0002  148 0001
     179 1000  184 1000  255 0100  315 0010  320 2220  330 0101  333 0001
@@ -967,7 +967,7 @@ RD   65 0100   75 1000  123 1121  132 0001  135 0101  146 0002  148 0001
 QN 00080
 QU What is the evidence that combination therapy with aminoglycosides and
    semisynthetic penicillins is more effective than therapy with either
-   alone?
+   alone\?
 NR 00034
 RD   61 1000  135 0100  152 0100  159 1100  238 1010  330 0001  333 0101
     427 0100  438 0100  451 1000  452 0100  453 0100  458 2122  459 0100
@@ -977,7 +977,7 @@ RD   61 1000  135 0100  152 0100  159 1100  238 1010  330 0001  333 0101
 
 QN 00081
 QU How effective are inhalations of mucolytic agents in the treatment of
-   CF patients?
+   CF patients\?
 NR 00028
 RD   31 0010   90 1011   93 0010  132 0001  135 0001  195 0001  253 0010
     321 2222  326 1011  359 0001  370 1111  438 1121  542 2120  546 2212
@@ -986,7 +986,7 @@ RD   31 0010   90 1011   93 0010  132 0001  135 0001  195 0001  253 0010
 
 QN 00082
 QU What is the role of aerosols in the treatment of lung disease in CF
-   patients?
+   patients\?
 NR 00062
 RD   25 2222   31 0002   90 2222   93 2222  132 0001  135 2122  148 0001
     152 0002  159 1002  189 0001  195 0001  197 0001  238 0001  253 2112
@@ -999,8 +999,8 @@ RD   25 2222   31 0002   90 2222   93 2222  132 0001  135 2122  148 0001
    1092 0001 1150 0001 1188 0001 1227 0001 1232 0001 1234 1102
 
 QN 00083
-QU What is the role of bacterial phagocytosis (by alveolar macrophages or
-   polymorphonuclear leukocytes) in lung disease in CF patients?
+QU What is the role of bacterial phagocytosis \(by alveolar macrophages or
+   polymorphonuclear leukocytes\) in lung disease in CF patients\?
 NR 00032
 RD   18 2121  166 2221  187 0001  238 0100  366 0100  370 1011  394 0100
     427 0100  430 0001  432 1212  447 1100  463 0001  501 0001  505 0101
@@ -1010,15 +1010,15 @@ RD   18 2121  166 2221  187 0001  238 0100  366 0100  370 1011  394 0100
 
 QN 00084
 QU What is the relationship between Haemophilus influenzae and Pseudomonas
-   aeruginosa in CF patients?
+   aeruginosa in CF patients\?
 NR 00016
 RD    8 0102  160 2221  333 0100  346 1000  384 1000  555 1000  590 0010
     778 0010  837 0001  912 0001  922 1001  952 0100  986 1100 1086 0001
    1112 1001 1179 0001
 
 QN 00085
-QU Do CF patients ever develop infection in organs other than the lung? If
-   so, in what organs?
+QU Do CF patients ever develop infection in organs other than the lung\? If
+   so, in what organs\?
 NR 00031
 RD   29 1212   58 0112   88 1000   98 0001  179 0002  200 1002  202 1121
     250 0100  370 1001  427 0002  432 1000  438 0001  469 0001  475 2120
@@ -1029,7 +1029,7 @@ RD   29 1212   58 0112   88 1000   98 0001  179 0002  200 1002  202 1121
 QN 00086
 QU What is the role of bacteria other than Pseudomonas aeruginosa,
    Staphylococcus aureus, or Haemophilus influenzae in the pathogenesis
-   of lung disease in CF patients?
+   of lung disease in CF patients\?
 NR 00047
 RD    8 2221   61 0002   85 0100  110 1211  135 0101  148 1212  152 1002
     160 0112  200 0001  238 0110  271 2212  330 0011  346 2111  370 1011
@@ -1041,7 +1041,7 @@ RD    8 2221   61 0002   85 0100  110 1211  135 0101  148 1212  152 1002
 
 QN 00087
 QU What is the role of fungi in the pathogenesis of lung disease in CF
-   patients?
+   patients\?
 NR 00038
 RD  187 2222  223 1001  228 2222  229 2222  333 0101  369 2222  370 1111
     382 0100  394 0001  401 1100  432 2122  438 1102  485 0001  513 0101
@@ -1051,15 +1051,15 @@ RD  187 2222  223 1001  228 2222  229 2222  333 0101  369 2222  370 1111
    1169 0001 1180 0001 1234 0001
 
 QN 00088
-QU What is the role of viral infection in the lung disease of CF patients?
+QU What is the role of viral infection in the lung disease of CF patients\?
 NR 00014
 RD  370 1011  443 0002  457 2222  590 1012  614 2220  668 0001  678 0110
     679 0110  702 0100  945 0100  990 0001 1091 1211 1134 0001 1144 0100
 
 QN 00089
-QU What is the epidemiology of Pseudomonas aeruginosa in CF patients?
+QU What is the epidemiology of Pseudomonas aeruginosa in CF patients\?
    Specifically, do CF patients spread Pseudomonas aeruginosa to other
-   patients or to other individuals (family)?
+   patients or to other individuals \(family\)\?
 NR 00017
 RD   79 1210  152 0002  176 2221  177 0110  179 0001  260 2212  265 0002
     370 1000  469 2222  479 1000  590 0010  706 1100  778 0100  905 1210
@@ -1067,7 +1067,7 @@ RD   79 1210  152 0002  176 2221  177 0110  179 0001  260 2212  265 0002
 
 QN 00090
 QU What factors are responsible for the appearance of mucoid strains of
-   Pseudomonas aeruginosa in CF patients?
+   Pseudomonas aeruginosa in CF patients\?
 NR 00028
 RD    7 1222  160 0001  161 0001  176 1222  177 2212  200 1122  260 1012
     265 2212  370 1000  451 2122  479 1120  505 0001  589 0001  590 2222
@@ -1075,8 +1075,8 @@ RD    7 1222  160 0001  161 0001  176 1222  177 2212  200 1122  260 1012
    1071 0001 1086 1211 1089 0001 1090 1210 1091 0112 1234 0001 1238 0010
 
 QN 00091
-QU What are the unusual manifestations of CF (other than lung disease or
-   exocrine pancreatic insufficiency)?
+QU What are the unusual manifestations of CF \(other than lung disease or
+   exocrine pancreatic insufficiency\)\?
 NR 00304
 RD    1 0001    3 0002    4 0002    8 0001    9 0001   11 0101   13 0001
      15 0102   17 0101   21 0100   29 1211   30 0100   32 0001   33 0001
@@ -1124,7 +1124,7 @@ RD    1 0001    3 0002    4 0002    8 0001    9 0001   11 0101   13 0001
    1232 0001 1234 1001 1235 0102
 
 QN 00092
-QU What is the prognosis for survival of patients with CF?
+QU What is the prognosis for survival of patients with CF\?
 NR 00108
 RD   17 0001   43 0001  111 0001  130 1000  135 1102  136 0001  148 0002
     181 0001  185 1000  189 0001  193 1000  200 0001  213 2111  226 0012
@@ -1144,14 +1144,14 @@ RD   17 0001   43 0001  111 0001  130 1000  135 1102  136 0001  148 0002
    1227 0001 1232 1121 1234 2122
 
 QN 00093
-QU Do CF patients have normal intelligence?
+QU Do CF patients have normal intelligence\?
 NR 00018
 RD  113 2212  145 2222  180 2122  272 2222  422 0001  467 1010  489 0011
     550 0001  586 1002  722 0001  724 0001  873 0001  999 0002 1000 0002
    1020 0002 1023 0001 1033 0002 1233 0001
 
 QN 00094
-QU What animal models are available which are relevant to CF?
+QU What animal models are available which are relevant to CF\?
 NR 00043
 RD   78 0011  114 0002  122 0001  123 0001  137 0001  192 0001  209 0011
     270 0002  277 0002  282 0001  309 2122  311 2122  322 0001  359 0001
@@ -1163,40 +1163,40 @@ RD   78 0011  114 0002  122 0001  123 0001  137 0001  192 0001  209 0011
 
 QN 00095
 QU What abnormalities of skeletal muscle function or structure have been
-   found in CF patients?
+   found in CF patients\?
 NR 00009
 RD   12 0001   30 2112   43 0100  192 0002  257 1000  322 0100  603 2120
     606 2120 1097 0001
 
 QN 00096
-QU Is there an increased incidence of dental problems (eg, caries or
-   periodontal disease) in CF patients?
+QU Is there an increased incidence of dental problems \(eg, caries or
+   periodontal disease\) in CF patients\?
 NR 00012
 RD    9 0001   40 1001   43 0100   75 2212  454 2222  455 2222  520 1001
     526 0011  527 0001  673 2222  883 0010 1087 0001
 
 QN 00097
-QU Is oxygen transport by red blood cells abnormal in CF patients?
+QU Is oxygen transport by red blood cells abnormal in CF patients\?
 NR 00011
 RD   52 0100   68 1000  135 0001  140 0101  190 0001  392 0001  416 1001
     538 0001  539 2222  751 2210  757 2222
 
 QN 00098
-QU What are the effects of CF on the development and/or function of the
-   brain and central nervous system?
+QU What are the effects of CF on the development and\/or function of the
+   brain and central nervous system\?
 NR 00015
 RD  145 2221  180 2120  270 0001  272 2210  362 0002  467 0010  595 0010
     667 0002  728 2222  782 2122  787 1011  985 2110 1018 0100 1019 1000
    1118 0101
 
 QN 00099
-QU Are there abnormalities of taste in CF patients?
+QU Are there abnormalities of taste in CF patients\?
 NR 00005
 RD  268 2222  324 2222  449 2122  992 1220 1191 1001
 
 QN 00100
 QU What is the incidence of and treatment for hypertrophic
-   osteoarthropathy in CF patients?
+   osteoarthropathy in CF patients\?
 NR 00011
 RD   59 0101  183 2222  370 1211  579 2222  803 1100  833 0110 1000 1212
    1017 2212 1033 0001 1097 1100 1232 0101
