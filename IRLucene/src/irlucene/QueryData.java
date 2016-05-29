@@ -11,14 +11,14 @@ import java.util.ArrayList;
  *
  * @author thiago
  */
-public class Query {
+public class QueryData {
     
     private int id;
     private String query;
     private int numberRelevantDocuments;
     private ArrayList<Integer> relevantDocuments;
     
-    public Query(){
+    public QueryData(){
         query = "";
         relevantDocuments = new ArrayList<>();
     }

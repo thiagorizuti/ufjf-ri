@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.Reader;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,8 +27,8 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.search.Query;
 import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
@@ -37,82 +38,55 @@ import org.apache.lucene.store.FSDirectory;
  *
  * @author thiago
  */
-public class CFCRetrieval {
+public class MEDRetrieval {
 
     private Directory index;
     private Analyzer analyzer;
 
-    public CFCRetrieval(Analyzer analyzer) {
+    public MEDRetrieval(Analyzer analyzer) {
         try {
-            index = FSDirectory.open(Paths.get("CFCindex/"));
+            index = FSDirectory.open(Paths.get("MEDindex/"));
             this.analyzer = analyzer;
         } catch (IOException ex) {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    public ArrayList<CFCDocument> readDocumentsFile(String fileName) {
-        ArrayList<CFCDocument> docs = new ArrayList();
+    public ArrayList<MEDDocument> readDocumentsFile(String fileName) {
+        ArrayList<MEDDocument> docs = new ArrayList();
         try {
             String line;
             String field = "";
-            int start;
-            File file = new File(System.getProperty("user.dir"), "data/cfc/" + fileName);
+            File file = new File(System.getProperty("user.dir"), "data/med/" + fileName);
             BufferedReader reader = new BufferedReader(new FileReader(file));
-            CFCDocument doc = new CFCDocument();
+            MEDDocument doc = new MEDDocument();
             while ((line = reader.readLine()) != null) {
                 if (line.length() < 2) {
                     continue;
                 }
-                if (!line.substring(0, 2).contains(" ")) {
+                if (line.substring(0, 2).contains(".I")) {
                     field = line.substring(0, 2);
-                    start = 3;
-                } else {
-                    start = 2;
                 }
-                if (field.contains("PN")) {
-                    if (!doc.getPaperNumber().isEmpty()) {
+                if (line.substring(0, 2).contains(".W")) {
+                    field = line.substring(0, 2);
+                    continue;
+                }
+                if (field.contains(".I")) {
+                    if (!doc.getId().isEmpty()) {
                         docs.add(doc);
                     }
-                    doc = new CFCDocument();
-                    doc.setPaperNumber(doc.getPaperNumber().concat(line.substring(start)));
+                    doc = new MEDDocument();
+                    doc.setId(doc.getId().concat(line.substring(2)));
                 }
-                if (field.contains("RN")) {
-                    doc.setRecordNumber(doc.getRecordNumber().concat(line.substring(start)));
-                }
-                if (field.contains("AN")) {
-                    doc.setAcessionNumber(doc.getAcessionNumber().concat(line.substring(start)));
-                }
-                if (field.contains("AU")) {
-                    doc.setAuthors(doc.getAuthors().concat(line.substring(start)));
-                }
-                if (field.contains("TI")) {
-                    doc.setTitle(doc.getTitle().concat(line.substring(start)));
-                }
-                if (field.contains("SO")) {
-                    doc.setSource(doc.getSource().concat(line.substring(start)));
-                }
-                if (field.contains("MJ")) {
-                    doc.setMajorSubjects(doc.getMajorSubjects().concat(line.substring(start)));
-                }
-                if (field.contains("MN")) {
-                    doc.setMinorSubjects(doc.getMinorSubjects().concat(line.substring(start)));
-                }
-                if (field.contains("AB") || field.contains("EX")) {
-                    doc.setAbstractExtract(doc.getAbstractExtract().concat(line.substring(start)));
-                }
-                if (field.contains("RF")) {
-                    doc.setReferences(doc.getReferences().concat(line.substring(start)));
-                }
-                if (field.contains("CT")) {
-                    doc.setCitations(doc.getCitations().concat(line.substring(start)));
+                if (field.contains(".W")) {
+                    doc.setContent(doc.getContent().concat(line));
                 }
 
             }
             docs.add(doc);
 
         } catch (IOException ex) {
-            Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Reader.class.getName()).log(Level.SEVERE, null, ex);
         }
         return docs;
     }
@@ -122,86 +96,68 @@ public class CFCRetrieval {
         try {
             String line;
             String field = "";
-            String token;
-            int start;
-            boolean read = true;
-            File file = new File(System.getProperty("user.dir"), "data/cfc/cfquery");
+            int queryId = 1;
+            int queryIdOld = 1;
+            int rel;
+            int relCount = 0;
+            File file = new File(System.getProperty("user.dir"), "data/med/MED.QRY");
             BufferedReader reader = new BufferedReader(new FileReader(file));
-            StringTokenizer stringTokenizer;
             QueryData query = new QueryData();
             while ((line = reader.readLine()) != null) {
                 if (line.length() < 2) {
                     continue;
                 }
-                if (!line.substring(0, 2).contains(" ")) {
+                if (line.substring(0, 2).contains(".I")) {
                     field = line.substring(0, 2);
-                    start = 3;
-                } else {
-                    start = 2;
                 }
-                if (field.contains("QN")) {
+                if (line.substring(0, 2).contains(".W")) {
+                    field = line.substring(0, 2);
+                    continue;
+                }
+                if (field.contains(".I")) {
                     if (query.getId() != 0) {
                         queries.add(query);
                     }
                     query = new QueryData();
                     query.setId(Integer.valueOf(line.substring(3)));
                 }
-                if (field.contains("QU")) {
-                    query.setQuery(query.getQuery().concat(line.substring(start)));
+                if (field.contains(".W")) {
+                    query.setQuery(query.getQuery().concat(line + " "));
                 }
-                if (field.contains("NR")) {
-                    query.setNumberRelevantDocuments(Integer.valueOf(line.substring(3)));
-                }
-                if (field.contains("RD")) {
-                    stringTokenizer = new StringTokenizer(line, " ");
-                    while (stringTokenizer.hasMoreElements()) {
-                        token = String.valueOf(stringTokenizer.nextElement());
-                        if (!token.contains("RD")) {
-                            if (read) {
-                                query.getRelevantDocuments().add(Integer.valueOf(token));
-                                read = false;
-                            } else {
-                                read = true;
-                            }
-                        }
-                    }
-                }
-
             }
             queries.add(query);
+            file = new File(System.getProperty("user.dir"), "data/med/MED.REL");
+            reader = new BufferedReader(new FileReader(file));
+            while ((line = reader.readLine()) != null) {
+                queryId = Integer.valueOf(line.split(" ")[0]);
+                rel = Integer.valueOf(line.split(" ")[2]);
+                queries.get(queryId - 1).getRelevantDocuments().add(rel);
+                if (queryId != queryIdOld) {
+                    queries.get(queryId - 2).setNumberRelevantDocuments(relCount);
+                    relCount = 0;
+                }
+                queryIdOld = queryId;
+                relCount++;
+            }
+            queries.get(queryId - 1).setNumberRelevantDocuments(relCount);
 
         } catch (IOException ex) {
-            Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Reader.class.getName()).log(Level.SEVERE, null, ex);
         }
         return queries;
     }
-
+    
     public void createIndex() {
         try {
             Document document;
             IndexWriter indexWriter = new IndexWriter(index, new IndexWriterConfig(analyzer));
 
-            ArrayList<CFCDocument> CFCdocs = new ArrayList();
-            CFCdocs.addAll(readDocumentsFile("cf74"));
-            CFCdocs.addAll(readDocumentsFile("cf75"));
-            CFCdocs.addAll(readDocumentsFile("cf76"));
-            CFCdocs.addAll(readDocumentsFile("cf77"));
-            CFCdocs.addAll(readDocumentsFile("cf78"));
-            CFCdocs.addAll(readDocumentsFile("cf79"));
+            ArrayList<MEDDocument> MEDdocs = readDocumentsFile("MED.ALL");
 
-            for (CFCDocument doc : CFCdocs) {
+            for (MEDDocument doc : MEDdocs) {
                 document = new Document();
-                document.add(new StringField("paperNumber", doc.getPaperNumber(), Field.Store.YES));
-                document.add(new StringField("recordNumber", doc.getRecordNumber(), Field.Store.YES));
-                document.add(new StringField("acessionNumber", doc.getAcessionNumber(), Field.Store.YES));
-                document.add(new TextField("auhtors", doc.getAuthors(), Field.Store.YES));
-                document.add(new TextField("title", doc.getTitle(), Field.Store.YES));
-                document.add(new TextField("source", doc.getSource(), Field.Store.YES));
-                document.add(new TextField("majorSubjects", doc.getMajorSubjects(), Field.Store.YES));
-                document.add(new TextField("minorSubjects", doc.getMinorSubjects(), Field.Store.YES));
-                document.add(new TextField("abstractExtract", doc.getAbstractExtract(), Field.Store.YES));
-                document.add(new TextField("references", doc.getReferences(), Field.Store.YES));
-                document.add(new TextField("citations", doc.getCitations(), Field.Store.YES));
+                document.add(new StringField("id", doc.getId(), Field.Store.YES));;
+                document.add(new TextField("content", doc.getContent(), Field.Store.YES));
                 indexWriter.addDocument(document);
             }
             indexWriter.close();
@@ -209,7 +165,7 @@ public class CFCRetrieval {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+    
     public ScoreDoc[] query(QueryData queryData) {
         HashMap<String, Float> boosts;
         MultiFieldQueryParser queryParser;
@@ -222,9 +178,7 @@ public class CFCRetrieval {
             boosts = new HashMap<>();
             //boosts.put("title", (float) 0.5);
             queryParser = new MultiFieldQueryParser(
-                    new String[]{"paperNumber", "recordNumber", "acessionNumber", "authors", "title",
-                        "source", "majorSubjects", "minorSubjects", "abstractExtract",
-                        "references", "citations"}, analyzer, boosts);
+                    new String[]{"id", "content"}, analyzer, boosts);
             q = queryParser.parse(queryData.getQuery());
             indexReader = DirectoryReader.open(index);
             indexSearcher = new IndexSearcher(indexReader);
@@ -237,7 +191,7 @@ public class CFCRetrieval {
         }
         return hits;
     }
-
+    
     public double[] precisionRecal(QueryData query, ScoreDoc[] hits) {
         double precisionRecall[] = {0, 0};
         int relevantAnswers;
@@ -255,7 +209,7 @@ public class CFCRetrieval {
                 int docId = hits[i].doc;
                 Document doc = indexSearcher.doc(docId);
                 for (int d : query.getRelevantDocuments()) {
-                    if (Integer.valueOf(doc.get("recordNumber").trim()) == d) {
+                    if (Integer.valueOf(doc.get("id").trim()) == d) {
                         relevantAnswers++;
                     }
                 }
@@ -291,7 +245,7 @@ public class CFCRetrieval {
                 int docId = hits[i].doc;
                 Document doc = indexSearcher.doc(docId);
                 for (int d : query.getRelevantDocuments()) {
-                    if (d == Integer.valueOf(doc.get("recordNumber").trim())) {
+                    if (d == Integer.valueOf(doc.get("id").trim())) {
                         relevantAnswers++;
                     }
                 }
@@ -321,11 +275,10 @@ public class CFCRetrieval {
             for (int i = 0; i < hits.length; ++i) {
                 int docId = hits[i].doc;
                 Document d = indexSearcher.doc(docId);
-                System.out.println((i + 1) + " " + d.get("paperNumber") + "\t" + d.get("title"));
+                System.out.println((i + 1) + " " + d.get("id"));
             }
         } catch (IOException ex) {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
 }
