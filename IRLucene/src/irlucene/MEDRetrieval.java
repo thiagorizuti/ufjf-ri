@@ -148,7 +148,7 @@ public class MEDRetrieval {
         }
         return queries;
     }
-    
+
     public void createIndex() {
         try {
             Document document;
@@ -167,7 +167,7 @@ public class MEDRetrieval {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
     public ScoreDoc[] query(QueryData queryData) {
         HashMap<String, Float> boosts;
         MultiFieldQueryParser queryParser;
@@ -178,7 +178,6 @@ public class MEDRetrieval {
         ScoreDoc[] hits = null;
         try {
             boosts = new HashMap<>();
-            //boosts.put("title", (float) 0.5);
             queryParser = new MultiFieldQueryParser(
                     new String[]{"id", "content"}, analyzer, boosts);
             q = queryParser.parse(queryData.getQuery());
@@ -193,7 +192,7 @@ public class MEDRetrieval {
         }
         return hits;
     }
-    
+
     public double[] precisionRecal(QueryData query, ScoreDoc[] hits) {
         double precisionRecall[] = {0, 0};
         int relevantAnswers;
@@ -216,8 +215,13 @@ public class MEDRetrieval {
                     }
                 }
             }
-            precisionRecall[0] = (double) relevantAnswers / answers;
-            precisionRecall[1] = (double) relevantAnswers / relevants;
+            if (answers == 0 || relevants == 0) {
+                precisionRecall[0] = 0;
+                precisionRecall[1] = 0;
+            } else {
+                precisionRecall[0] = (double) relevantAnswers / answers;
+                precisionRecall[1] = (double) relevantAnswers / relevants;
+            }
         } catch (IOException ex) {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -225,7 +229,11 @@ public class MEDRetrieval {
     }
 
     public double fMeasure(double precisionRecall[]) {
-        return 2 * (precisionRecall[0] * precisionRecall[1]) / (precisionRecall[0] + precisionRecall[1]);
+        if (precisionRecall[0] == 0 || precisionRecall[0] == 0) {
+            return 0;
+        } else {
+            return 2 * (precisionRecall[0] * precisionRecall[1]) / (precisionRecall[0] + precisionRecall[1]);
+        }
     }
 
     public double pAtN(QueryData query, ScoreDoc[] hits, int n) {

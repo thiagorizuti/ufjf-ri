@@ -212,7 +212,7 @@ public class CFCRetrieval {
         }
     }
 
-    public ScoreDoc[] query(QueryData queryData) {
+    public ScoreDoc[] query(QueryData queryData, float titleBoost) {
         HashMap<String, Float> boosts;
         MultiFieldQueryParser queryParser;
         Query q;
@@ -222,7 +222,9 @@ public class CFCRetrieval {
         ScoreDoc[] hits = null;
         try {
             boosts = new HashMap<>();
-            //boosts.put("title", (float) 0.5);
+            if(titleBoost != 0){
+                boosts.put("title", titleBoost);   
+            }     
             queryParser = new MultiFieldQueryParser(
                     new String[]{"paperNumber", "recordNumber", "acessionNumber", "authors", "title",
                         "source", "majorSubjects", "minorSubjects", "abstractExtract",
@@ -262,8 +264,13 @@ public class CFCRetrieval {
                     }
                 }
             }
-            precisionRecall[0] = (double) relevantAnswers / answers;
-            precisionRecall[1] = (double) relevantAnswers / relevants;
+            if (answers == 0 || relevants == 0) {
+                precisionRecall[0] = 0;
+                precisionRecall[1] = 0;
+            } else {
+                precisionRecall[0] = (double) relevantAnswers / answers;
+                precisionRecall[1] = (double) relevantAnswers / relevants;
+            }
         } catch (IOException ex) {
             Logger.getLogger(CFCRetrieval.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -271,7 +278,11 @@ public class CFCRetrieval {
     }
 
     public double fMeasure(double precisionRecall[]) {
-        return 2 * (precisionRecall[0] * precisionRecall[1]) / (precisionRecall[0] + precisionRecall[1]);
+        if (precisionRecall[0] == 0 || precisionRecall[0] == 0) {
+            return 0;
+        } else {
+            return 2 * (precisionRecall[0] * precisionRecall[1]) / (precisionRecall[0] + precisionRecall[1]);
+        }
     }
 
     public double pAtN(QueryData query, ScoreDoc[] hits, int n) {
